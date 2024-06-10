@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KV</string>
+
+    <string name="home">Главная</string>
+    <string name="profile">Профиль</string>
+    <string name="search">Об авторе</string>
+    <string name="instruction">О программе</string>
+</resources>

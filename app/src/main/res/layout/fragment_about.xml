@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentMovie">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="383dp"
+        android:layout_height="579dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217">
+
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Наше приложение для изучения растений предоставляет пользователям уникальную возможность изучать растения в зависимости от их региона. Вы можете выбрать любой регион, который вас интересует, и пройти темы, связанные с растениями, произрастающими в этом регионе.
+
+Кроме того, наше приложение предоставляет возможность проходить тестирование по пройденным темам. Это позволяет пользователям проверить свои знания и навыки, а также убедиться, что они полностью поняли и усвоили материал.Наше приложение имеет клиент-серверную архитектуру, что обеспечивает надежность и безопасность работы. Мы также реализовали ролевую модель и разграничение полномочий, что позволяет контролировать доступ к приложению и предотвращать несанкционированный доступ.
+
+Наше приложение для изучения растений - это отличный инструмент для всех, кто хочет расширить свои знания в области ботаники, а также для студентов и специалистов, которые изучают или работают с растениями. Мы уверены, что наше приложение станет вашим надежным помощником и источником вдохновения!"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Инструкция пользователю"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
