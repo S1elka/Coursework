@@ -43,39 +43,6 @@ public class MainActivity extends AppCompatActivity {
         Animation rotate = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate);
         imageView = findViewById(R.id.imageView3);
         imageView.startAnimation(rotate);
-        //m.transitionToEnd();
-        //m.addTransitionListener(new MotionLayout.TransitionListener() {
-            //@Override
-            //public void onTransitionStarted(MotionLayout motionLayout, int startId, int endId) {
-                //Log.d("Trans", "start");
-                //cout+=1;
-                //if(cout<2){
-                    //m.transitionToEnd();
-                //}
-
-            //}
-
-            //@Override
-            //public void onTransitionChange(MotionLayout motionLayout, int startId, int endId, float progress) {
-                //Log.d("Trans", "progress");
-            //}
-
-           // @Override
-            //public void onTransitionCompleted(MotionLayout motionLayout, int currentId) {
-               // Handler handler = new Handler();
-                //handler.postDelayed(new Runnable() {
-                  //  @Override
-                  //  public void run() {
-                       // m.transitionToStart();
-                    //}
-               // }, 1000);
-          //  }
-
-            //@Override
-            //public void onTransitionTrigger(MotionLayout motionLayout, int triggerId, boolean positive, float progress) {
-
-           // }
-       // });
         Intent intent = new Intent(this, SecondActivity.class);
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser != null) {
